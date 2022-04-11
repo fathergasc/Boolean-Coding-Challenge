@@ -1,0 +1,86 @@
+body{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+}
+
+*{
+  position: static;
+  box-sizing: border-box;
+}
+
+.transparent-box {
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 3%;
+}
+
+.sottotitolo{
+  color: rgb(0, 255, 0);
+  text-align: center;
+}
+
+.logo-pic{
+  position: relative;
+  width: 220px;
+  height: 100px;
+  margin-left: 530px;
+  margin-top: 115px;
+}
+
+main{
+  padding-left: 95px;
+  padding-top: 25px;
+  color: white;
+  text-align: left;
+}
+
+nav{
+  padding: 5px;
+  margin: auto;
+  position: relative;
+  background-color: rgb(0, 255, 0);
+  width: 1000px;
+  height: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+.posizione, .stato-carica{
+  font-size: 15px;
+}
+
+.id-monopattino, .posizione, .stato-carica{
+  font-family: Arial, sans-serif;
+}
+
+.id-monopattino{
+  font-size: 22px;
+}
+
+.carica1{
+  background-color: orange;
+  width: 200px;
+}
+
+.carica2{
+  background-color: green;
+  width:400px;
+}
+
+.carica3{
+ background-color: red;
+ width: 100px;
+}
+
+.carica1, .carica2, .carica3{
+  margin-left: 5px;
+  margin-bottom: 30px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.id-monopattino, .posizione, .stato-carica{
+  padding-left: 5px;
+}
